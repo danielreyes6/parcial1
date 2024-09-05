@@ -17,21 +17,28 @@ Para cada expresión regular, el programa debe devolver el token correspondiente
 
 Ejemplo de uso:
 
-python3 AFD.py +
-# Salida: SUMA
+    python3 AFD.py 
+
+los elementos a probar son:235,15.65,+,++
+Salida: 
+    Expresión: 235 -> Token: ENTERO
+    Expresión: 15.65 -> Token: REAL
+    Expresión: + -> Token: SUMA
+    Expresión: ++ -> Token: INCR
+
 
 2. Gramática Regular para Función Lambda en LEX
 
 Escribe una gramática regular en LEX para comprender el funcionamiento de la función lambda en Python. El programa debe recibir un archivo de texto como parámetro y devolver si la expresión es aceptada o no.
 
-Ejemplo de archivo de entrada (archivo.txt):
+Ejemplo de archivo de entrada (prueba.txt):
 
-square = lambda x: x ** 2
-print(square(3))
+    square = lambda x: x ** 2
+    print(square(3))
 
 Ejemplo de uso:
 
-./verificar_lambda archivo.txt
+    ./verificar_lambda prueba.txt
 # Salida: ACEPTA o NO ACEPTA
 
 3. Programa en C para Contar Coincidencias de una Palabra Clave
@@ -40,7 +47,7 @@ Escribe un programa en C que reciba dos parámetros: un archivo de texto y una p
 
 Ejemplo de uso:
 
-./miprograma archivo.txt arroz
+    ./contador prueba.txt hola
 # Salida: arroz se repite 10 veces en el texto.
 
 4. Programa en AWK para Identificar Números Primos
@@ -49,7 +56,7 @@ Realiza un programa en AWK que analice un archivo de texto con 1000 números ent
 
 Ejemplo de uso:
 
-awk -f primos.awk numeros.txt
+    awk -f primos.awk numeros.txt
 
 5. Programa en ANTLR para Calcular Funciones Trigonométricas
 
@@ -63,17 +70,17 @@ El programa debe leer las expresiones desde un archivo de texto e imprimir el re
 
 Ejemplo de archivo de entrada (expr.in):
 
-Sin(90)
-Cos(0)
-Cos(180)
-Sin(45)
+    Sin(90)
+    Cos(0)
+    Cos(180)
+    Sin(45)
 
 Ejemplo de uso:
 
-java TrigCalc expr.in
-# Salida:
-# 1.0
-# 1.0
-# -1.0
-# 0.7071067811865475
+    java TrigCalc expr.in
+Salida:
+    1.0
+    1.0
+    -1.0
+    0.7071067811865475
 
