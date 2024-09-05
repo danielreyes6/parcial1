@@ -42,7 +42,9 @@ Ejemplo de uso:
 
     ./verificar_lambda prueba.txt
 
-Salida: ACEPTA o NO ACEPTA
+Salida: 
+
+    ACEPTA o NO ACEPTA
 
 # 3. Programa en C para Contar Coincidencias de una Palabra Clave
 
