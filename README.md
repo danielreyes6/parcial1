@@ -20,6 +20,7 @@ Ejemplo de uso:
     python3 AFD.py 
 
 los elementos a probar son:235, 15.65, +, ++
+
 Salida: 
     
     Expresión: 235 -> Token: ENTERO
