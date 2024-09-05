@@ -1,6 +1,5 @@
 # parcial1
-parcial #1 Daniel Reyes
-Proyecto de Parcial 1
+Daniel Reyes
 
 Este proyecto contiene varios programas desarrollados para el primer parcial de la asignatura de Lenguajes de Programación. Cada punto del parcial aborda un problema específico y su solución correspondiente.
 Puntos del Parcial
