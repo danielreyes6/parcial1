@@ -4,7 +4,7 @@ Proyecto de Parcial 1
 
 Este proyecto contiene varios programas desarrollados para el primer parcial de la asignatura de Lenguajes de Programación. Cada punto del parcial aborda un problema específico y su solución correspondiente.
 Puntos del Parcial
-1. Autómata Finito Determinista (AFD) en Python
+# 1. Autómata Finito Determinista (AFD) en Python
 
 Implementa un programa en Python que acepta las siguientes expresiones regulares:
 
@@ -28,7 +28,7 @@ Salida:
     Expresión: ++ -> Token: INCR
 
 
-2. Gramática Regular para Función Lambda en LEX
+# 2. Gramática Regular para Función Lambda en LEX
 
 Escribe una gramática regular en LEX para comprender el funcionamiento de la función lambda en Python. El programa debe recibir un archivo de texto como parámetro y devolver si la expresión es aceptada o no.
 
@@ -40,18 +40,30 @@ Ejemplo de archivo de entrada (prueba.txt):
 Ejemplo de uso:
 
     ./verificar_lambda prueba.txt
-# Salida: ACEPTA o NO ACEPTA
 
-3. Programa en C para Contar Coincidencias de una Palabra Clave
+Salida: ACEPTA o NO ACEPTA
+
+# 3. Programa en C para Contar Coincidencias de una Palabra Clave
 
 Escribe un programa en C que reciba dos parámetros: un archivo de texto y una palabra clave. El programa debe retornar la cantidad de coincidencias de la palabra clave en el texto.
+la prueba es:
 
-Ejemplo de uso:
+    hola mundo
+    hola buenas tardes, probemos si funciona
+    hola a todos
+    este es un ejemplo de hola
+    por eso es bueno decir hola
+    Ejemplo de uso:
+
+se ejecuta:
 
     ./contador prueba.txt hola
-# Salida: arroz se repite 10 veces en el texto.
+    
+ Salida: 
+     
+     hola se repite 5 veces en el texto.
 
-4. Programa en AWK para Identificar Números Primos
+# 4. Programa en AWK para Identificar Números Primos
 
 Realiza un programa en AWK que analice un archivo de texto con 1000 números enteros aleatorios del 1 al 1000 y determine cuáles son números primos.
 
@@ -59,7 +71,7 @@ Ejemplo de uso:
 
     awk -f primos.awk numeros.txt
 
-5. Programa en ANTLR para Calcular Funciones Trigonométricas
+# 5. Programa en ANTLR para Calcular Funciones Trigonométricas
 
 Escribe un programa en ANTLR que pueda calcular las siguientes funciones trigonométricas:
 
@@ -76,7 +88,7 @@ Ejemplo de archivo de entrada (expr.in):
     Cos(180)
     Sin(45)
 
-Ejemplo de uso:
+Se ejecuta:
 
     java TrigCalc expr.in
 Salida:
