@@ -19,8 +19,9 @@ Ejemplo de uso:
 
     python3 AFD.py 
 
-los elementos a probar son:235,15.65,+,++
+los elementos a probar son:235, 15.65, +, ++
 Salida: 
+    
     Expresión: 235 -> Token: ENTERO
     Expresión: 15.65 -> Token: REAL
     Expresión: + -> Token: SUMA
@@ -79,6 +80,7 @@ Ejemplo de uso:
 
     java TrigCalc expr.in
 Salida:
+
     1.0
     1.0
     -1.0
