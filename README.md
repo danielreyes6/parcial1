@@ -19,7 +19,7 @@ Ejemplo de uso:
 
     python3 AFD.py 
 
-los elementos a probar son:235, 15.65, +, ++
+Los elementos a probar son:235, 15.65, +, ++
 
 Salida: 
     
@@ -47,14 +47,14 @@ Salida: ACEPTA o NO ACEPTA
 # 3. Programa en C para Contar Coincidencias de una Palabra Clave
 
 Escribe un programa en C que reciba dos parámetros: un archivo de texto y una palabra clave. El programa debe retornar la cantidad de coincidencias de la palabra clave en el texto.
-la prueba es:
+
+La prueba es:
 
     hola mundo
     hola buenas tardes, probemos si funciona
     hola a todos
     este es un ejemplo de hola
     por eso es bueno decir hola
-    Ejemplo de uso:
 
 se ejecuta:
 
@@ -72,7 +72,12 @@ los numeros primos se definen de forma aleatoria por un programa en python que g
 
 Ejemplo de uso:
 
-    awk -f primos.awk numeros.txt
+    awk -f primo.awk numeros.txt
+
+Salida:
+
+    n es primo
+
 
 # 5. Programa en ANTLR para Calcular Funciones Trigonométricas
 
