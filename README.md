@@ -66,7 +66,7 @@ se ejecuta:
 # 4. Programa en AWK para Identificar Números Primos
 
 Realiza un programa en AWK que analice un archivo de texto con 1000 números enteros aleatorios del 1 al 1000 y determine cuáles son números primos.
-
+los numeros primos se definen de forma aleatoria por un programa en python que genera un archivo llamado numeros.txt
 Ejemplo de uso:
 
     awk -f primos.awk numeros.txt
